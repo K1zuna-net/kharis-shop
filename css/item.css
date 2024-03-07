@@ -1,0 +1,67 @@
+ul,
+li {
+  list-style: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.item-box {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.item_name {
+  width: 500px;
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+.item-text {
+  font-size: 1.5rem;
+  padding-bottom: 5rem;
+  letter-spacing: 1.6;
+}
+
+.price {
+  text-align: right;
+}
+
+.quan_btn {
+  padding-top: 13rem;
+  padding-bottom: 5rem;
+  text-align: right;
+}
+
+select {
+  border: 2px solid;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.btn-btn-tag {
+  background-color: #003366;
+  color: #faf0e6;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: right;
+  margin-left: 10rem;
+  max-width: 300px;
+  padding: 0.5rem;
+  border: 2px solid;
+}
+
+.btn-btn-tag:hover {
+  background-color: #faf0e6;
+  color: #003366;
+  transition: 0.5s;
+}
+
+.item-box {
+  background-color: #fffaf0;
+}

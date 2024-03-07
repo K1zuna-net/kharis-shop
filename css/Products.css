@@ -1,0 +1,418 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #faf0e6;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+/*start*/
+.title {
+  color: #003366;
+  margin-top: 1em;
+  margin-left: 1em;
+  font-size: 2.5em;
+}
+
+.title_texts {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sub_title {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sub_title a {
+  text-decoration: none;
+  color: inherit;
+  border: solid 1px #333;
+  border-radius: 50px;
+  width: auto;
+  height: 10%;
+  background-color: #fff4e5;
+  color: #333;
+  margin-left: 1em;
+  transition: background-color 0.5s;
+}
+
+.sub_title a:hover {
+  background-color: peachpuff;
+}
+
+.sub_title p {
+  margin: 0 1.5em 0 1.5em;
+}
+
+.sub_title_2 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1em;
+}
+
+.sub_title_2 a {
+  color: inherit;
+  text-decoration: none;
+  border: solid 1px #333;
+  border-radius: 50px;
+  width: auto;
+  height: 10%;
+  background-color: #fff4e5;
+  color: #333;
+  transition: background-color 0.5s;
+}
+
+.sub_title_2 a:hover {
+  background-color: peachpuff;
+}
+
+.sub_title_2 p {
+  margin: 0 1.5em 0 1.5em;
+}
+
+/*商品一覧01*/
+.Acne-box {
+  position: relative;
+  height: auto;
+  top: 3rem;
+  margin-bottom: 10rem;
+}
+
+.Acne {
+  position: absolute;
+  margin: 0rem;
+  color: #003366;
+  top: 4rem;
+  left: 9rem;
+  font-size: 3em;
+}
+
+.feed-in-box {
+  margin-top: 15rem;
+  /*padding: ; /* 余白指定 */
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 5s ease;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.feed-in-box {
+  display: flex;
+  justify-content: center;
+}
+
+.feed-in {
+  padding: 1em;
+  color: black;
+  /* 文字色 */
+  margin: 0.1rem;
+  /* 外側の余白 */
+  border-radius: 5px;
+  /* 角丸指定 */
+  width: 20rem;
+  left: 0.1rem;
+  top: auto;
+  /*animation: fadeIn 5s ease 1s 1 normal backwards;*/
+}
+
+.feed-in img {
+  width: 72%;
+  height: 77%;
+  max-height: 50rem;
+  max-width: 35rem;
+  left: 0.1rem;
+  top: auto;
+  margin-left: 2rem;
+}
+
+.feed-in p {
+  position: relative;
+  font-size: 1.5em;
+  left: 2rem;
+}
+
+.feed-in h2 {
+  position: relative;
+  left: 2.2rem;
+  font-size: 20px;
+}
+
+/*商品詳細２*/
+
+.Again-box {
+  position: absolute;
+  height: auto;
+  top: 95rem;
+  left: 10rem;
+  margin-bottom: 10rem;
+}
+
+.Agin {
+  margin: 0rem;
+  color: #003366;
+  font-size: 3em;
+  width: 100%;
+}
+
+.feed-in-box2 {
+  margin-top: 15rem;
+  /*padding: ; /* 余白指定 */
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 5s ease;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.feed-in-box2 {
+  display: flex;
+  justify-content: center;
+}
+
+.feed-in2 {
+  padding: 1em;
+  color: black;
+  /* 文字色 */
+  margin: 0.1rem;
+  /* 外側の余白 */
+  border-radius: 5px;
+  /* 角丸指定 */
+  width: 20rem;
+  left: 0.1rem;
+  top: auto;
+  /*animation: fadeIn 5s ease 1s 1 normal backwards;*/
+}
+
+.feed-in2 img {
+  width: 72%;
+  height: 77%;
+  max-height: 50rem;
+  max-width: 35rem;
+  left: 0.1rem;
+  top: auto;
+  margin-left: 2rem;
+}
+
+.feed-in2 p {
+  position: relative;
+  font-size: 1.5em;
+  left: 2rem;
+}
+
+.feed-in2 h2 {
+  position: relative;
+  left: 2.2rem;
+  font-size: 20px;
+}
+
+/*商品詳細3*/
+.Face-box {
+  position: absolute;
+  height: auto;
+  top: 174rem;
+  left: 10rem;
+  margin-bottom: 10rem;
+}
+
+.Face {
+  margin: 0rem;
+  color: #003366;
+  font-size: 3em;
+  width: 100%;
+}
+
+.feed-in-box3 {
+  /*padding: ; /* 余白指定 */
+  margin-top: 20rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 5s ease;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.feed-in-box3 {
+  display: flex;
+  justify-content: center;
+}
+
+.feed-in3 {
+  padding: 1em;
+  color: black;
+  /* 文字色 */
+  margin: 0.1rem;
+  /* 外側の余白 */
+  border-radius: 5px;
+  /* 角丸指定 */
+  width: 20rem;
+  left: 0.1rem;
+  top: auto;
+  /*animation: fadeIn 5s ease 1s 1 normal backwards;*/
+}
+
+.feed-in3 img {
+  width: 72%;
+  height: 77%;
+  max-height: 50rem;
+  max-width: 35rem;
+  left: 0.1rem;
+  top: auto;
+  margin-left: 2rem;
+}
+
+.feed-in3 p {
+  position: relative;
+  font-size: 1.5em;
+  left: 2rem;
+}
+
+.feed-in3 h2 {
+  position: relative;
+  left: 2.2rem;
+  font-size: 20px;
+}
+
+/*商品詳細4*/
+.mois-box {
+  position: absolute;
+  height: auto;
+  top: 285rem;
+  left: 10rem;
+}
+
+.mois {
+  position: absolute;
+  margin: 0rem;
+  color: #003366;
+  font-size: 3em;
+  width: 12rem;
+  height: 5rem;
+  top: 1rem;
+}
+
+.feed-in-box4 {
+  /*padding: ; /* 余白指定 */
+  margin-top: 10rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 5s ease;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.feed-in-box4 {
+  display: flex;
+  justify-content: center;
+}
+
+.feed-in4 {
+  padding: 1em;
+  color: black;
+  /* 文字色 */
+  margin: 0.1rem;
+  /* 外側の余白 */
+  border-radius: 5px;
+  /* 角丸指定 */
+  width: 20rem;
+  left: 0.1rem;
+  top: auto;
+  /*animation: fadeIn 5s ease 1s 1 normal backwards;*/
+}
+
+.feed-in4 img {
+  width: 72%;
+  height: 77%;
+  max-height: 50rem;
+  max-width: 35rem;
+  left: 0.1rem;
+  top: auto;
+  margin-left: 2rem;
+}
+
+.feed-in4 p {
+  position: relative;
+  font-size: 1.5em;
+  left: 2rem;
+}
+
+.feed-in4 h2 {
+  position: relative;
+  left: 2.2rem;
+  font-size: 20px;
+}
+
+/*商品詳細6*/
+.whit-box {
+  position: absolute;
+  height: auto;
+  top: 400rem;
+  left: 10rem;
+}
+
+.whit {
+  margin: 0rem;
+  color: #003366;
+  font-size: 3em;
+  width: 12rem;
+  height: 5rem;
+}
+
+.feed-in-box6 {
+  /*padding: ; /* 余白指定 */
+  margin-top: 20rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 5s ease;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.feed-in-box6 {
+  display: flex;
+  justify-content: center;
+}
+
+.feed-in6 {
+  padding: 1em;
+  color: black;
+  /* 文字色 */
+  margin: 0.1rem;
+  /* 外側の余白 */
+  border-radius: 5px;
+  /* 角丸指定 */
+  width: 20rem;
+  left: 0.1rem;
+  top: auto;
+  /*animation: fadeIn 5s ease 1s 1 normal backwards;*/
+}
+
+.feed-in6 img {
+  width: 72%;
+  height: 77%;
+  max-height: 50rem;
+  max-width: 35rem;
+  left: 0.1rem;
+  top: auto;
+  margin-left: 2rem;
+}
+
+.feed-in6 p {
+  position: relative;
+  font-size: 1.5em;
+  left: 2rem;
+}
+
+.feed-in6 h2 {
+  position: relative;
+  left: 2.2rem;
+  font-size: 20px;
+}

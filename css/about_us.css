@@ -1,0 +1,35 @@
+.title {
+  text-align: center;
+  width: 100;
+  margin: 0 auto;
+  color: #003366;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-top: 4em;
+  padding-bottom: 2em;
+}
+
+.sub_title {
+  text-align: center;
+  width: 100;
+  margin: 0 auto;
+  font-size: 1.2em;
+  padding-bottom: 6em;
+}
+
+.about_text {
+  text-align: center;
+  width: 100;
+  margin: 0 auto;
+  font-size: 1.2em;
+  letter-spacing: 3px;
+  padding-bottom: 6em;
+}
+
+.about_img img {
+  padding-bottom: 8em;
+  display: block;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+}
